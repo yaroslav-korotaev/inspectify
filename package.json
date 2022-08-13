@@ -1,0 +1,28 @@
+{
+  "name": "inspectify",
+  "version": "0.1.0",
+  "description": "Sanitize object for serialization like util.inspect() does",
+  "keywords": [
+    "object",
+    "error",
+    "inspectify",
+    "inspect",
+    "serialize",
+    "sanitize"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/inspectify/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "yaroslav-korotaev/inspectify",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "typescript": "^4.7.4"
+  }
+}

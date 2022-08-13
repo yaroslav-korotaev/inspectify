@@ -1,0 +1,14 @@
+source: ../templates/lib
+data:
+  name: inspectify
+  version: "0.1.0"
+  description: Sanitize object for serialization like util.inspect() does
+  keywords:
+    - object
+    - error
+    - inspectify
+    - inspect
+    - serialize
+    - sanitize
+  author: Yaroslav Korotaev <yaroslav.korotaev@gmail.com>
+  repo: yaroslav-korotaev/inspectify
