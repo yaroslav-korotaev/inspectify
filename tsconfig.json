@@ -4,12 +4,8 @@
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
-    "lib": [
-      "es2022"
-    ],
+    "lib": ["es2022"],
     "module": "commonjs",
-    "moduleDetection": "force",
     "moduleResolution": "node",
     "newLine": "lf",
     "noEmitOnError": true,
@@ -17,13 +13,8 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "outDir": "dist",
-    "paths": {
-      "*": [
-        "node_modules/*",
-        "src/types/*"
-      ]
-    },
     "sourceMap": true,
+    "skipLibCheck": true,
     "strict": true,
     "target": "es2022"
   },
@@ -31,6 +22,7 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "src/**/__tests__/**/*.ts"
+    "src/**/__tests__/**/*.ts",
+    "src/**/*.spec.ts"
   ]
 }
